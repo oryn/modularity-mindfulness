@@ -1,69 +1,45 @@
 html {
+  font-family: "Noto Sans Japanese", sans-serif;
   font-family: "Noto Sans", sans-serif;
 }
 
-footer {
-  color: #e2e2e2;
-}
-
-nav ul li a {
-  color: #b64c6e;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: #860927;
-}
-
 a {
-  display: inline-block;
-  border-bottom: solid 2px #d89fb0;
-}
-
-.btn {
   color: #b64c6e;
-  border-color: #d89fb0;
-  border-width: 2px;
-}
-
-.btn-ghost {
-  color: #b64c6e;
-
-}
-
-.btn-ghost:hover {
-  border-color: #860927;
-  color: #860927;
 }
 
 hr {
   border-color: #e2e2e2;
 }
 
-i {
-  font-family: "Noto Sans Japanese", sans-serif;
+.ja-par {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
-.logo {
-  text-align: center;
+.eng-par {
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
-nav {
-  text-align: center;
+li a {
+  text-decoration: none;
+  border-bottom: 1px solid #b64c6e;
 }
 
-@media only screen and (min-width: 60em) {
+.btn-ghost {
+  border-color: #d89fb0;
+}
 
-  header {
-    text-align: right;
-  }
+.btn:hover {
+  color: #860927;
+  background-color: #d89fb0;
+  border-color: #860927;
+}
 
-  .logo {
-    text-align: left;
-  }
+.btn {
+  color: #b64c6e;
+}
 
-  nav {
-    text-align: right;
-  }
-
+.copyright {
+  color: #e2e2e2;
 }
