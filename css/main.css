@@ -1,45 +1,84 @@
 html {
-  font-family: "Noto Sans Japanese", sans-serif;
   font-family: "Noto Sans", sans-serif;
 }
 
-a {
+[lang="ja"] {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.logo,
+nav {
+  text-align: center;
+}
+
+nav a {
   color: #b64c6e;
-}
-
-hr {
-  border-color: #e2e2e2;
-}
-
-.ja-par {
-  padding-left: 2.5em;
-  padding-right: 2.5em;
-}
-
-.eng-par {
-  padding-left: 4em;
-  padding-right: 4em;
-}
-
-li a {
+  border-bottom: 1.5px solid #d89fb0;
   text-decoration: none;
-  border-bottom: 1px solid #b64c6e;
 }
 
-.btn-ghost {
-  border-color: #d89fb0;
-}
-
-.btn:hover {
+nav a:hover {
   color: #860927;
-  background-color: #d89fb0;
   border-color: #860927;
 }
 
-.btn {
-  color: #b64c6e;
+main header div {
+  border-top: 1.5px solid #e2e2e2;
+  border-bottom: 1.5px solid #e2e2e2;
 }
 
-.copyright {
-  color: #e2e2e2;
+.max-length-eng {
+  max-width: 10rem;
+}
+
+.btn-ghost {
+  color: #b64c6e;
+  border-color: #d89fb0;
+  border-width: 1.5px;
+}
+
+.btn-ghost:hover {
+  background-color: #d89fb0;
+  color: #860927;
+  border-color: #860927;
+}
+
+footer {
+  border-top: 1.5px solid #e2e2e2;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .max-length-eng {
+    max-width: 17rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .max-length-eng {
+    max-width: 24em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+
+  .max-length {
+    max-width: 36em;
+  }
+
+  .max-length-eng {
+    max-width: 24em;
+  }
+
 }
